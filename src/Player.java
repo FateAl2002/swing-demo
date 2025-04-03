@@ -11,7 +11,8 @@ public class Player extends Sprite {
 
     @Override
     public void tick() {
-
+        getPos().x = Math.clamp(getPos().x, 0, BOARD_WIDTH - PLAYER_WIDTH);
+        getPos().y = Math.clamp(getPos().y, 0, BOARD_HEIGHT - PLAYER_HEIGHT);
     }
 
     public void handleActiveKeys(Set<Integer> activeKeyCodes) {
