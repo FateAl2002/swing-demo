@@ -14,8 +14,8 @@ public final class Constants {
     public static final int PLAYER_SPEED = 10;
 
     public static final String MISSILE_IMAGE_PATH = "resources/missile.jpg";
-    public static final int MISSILE_WIDTH = 60;
-    public static final int MISSILE_HEIGHT = 80;
+    public static final int MISSILE_WIDTH = 80;
+    public static final int MISSILE_HEIGHT = 40;
     public static final int MISSILE_SPEED = 20;
 
     public static final int TICK_DELAY = 25;
